@@ -1,0 +1,27 @@
+{
+  "author": "zbryikt",
+  "name": "@lightbox-dash/nwp-2024",
+  "private": true,
+  "description": "nwp-2024 brd files",
+  "version": "1.0.0",
+  "homepage": "https://github.com/lightbox-dash/nwp-2024",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lightbox-dash/nwp-2024"
+  },
+  "engines": {
+    "node": ">=0.12.6",
+    "npm": ">=1.2.2"
+  },
+  "scripts": {
+    "start": "npx server -r web -o true"
+  },
+  "devDependencies": {
+    "@loadingio/bootstrap.ext": "^0.0.9",
+    "@zbryikt/template": "^2.3.45",
+    "fedep": "^1.1.11",
+    "jsdom": "^21.1.0",
+    "ldview": "^1.4.0",
+    "livescript": "^1.6.0"
+  }
+}
