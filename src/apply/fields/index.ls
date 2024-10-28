@@ -71,7 +71,7 @@ fc["排班頻率"] =
     title: "實習期間，預計的排班頻率"
     is-required: true
     config:
-      note: ["Lightbox 開放時間：每週二－六，10:00-19:00"]
+      note: ["Lightbox 開放時間：每週二～六，10：00～19：00"]
       values: <[一周2天 一周3天 一周3天以上]> 
       other: enabled: true, prompt: "其他"
 

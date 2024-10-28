@@ -11,16 +11,15 @@ div
     width="1600",height="800",style="width:100%;height:auto",alt="brd visual")
     .sect.embed-hide
       h1 #[span(t="title.name")]
-      //-.mt-3(t="title.date")
     .sect
       .my-2 申請前，請#[a(href="https://lightboxlib.org/volunteers", target="_blank") 詳閱 Lightbox 實習須知]。
       +widget("申請須知")
       .row
         .col-md: +widget("姓名")
-        .col-md: +widget("電子信箱")
-      .row
-        .col-md: +widget("聯絡電話")
         .col-md: +widget("生日")
+      .row
+        .col-md: +widget("電子信箱")
+        .col-md: +widget("聯絡電話")
       +widget("性別")
       +widget("就讀")
     .sect
