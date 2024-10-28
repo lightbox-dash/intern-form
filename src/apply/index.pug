@@ -15,17 +15,18 @@ div
     .sect
       .my-2 申請前，請#[a(href="https://lightboxlib.org/volunteers", target="_blank") 詳閱 Lightbox 實習須知]。
       +widget("申請須知")
-      +widget("姓名")
-      +widget("電子信箱")
-      +widget("聯絡電話")
-      +widget("生日")
+      .row
+        .col-md: +widget("姓名")
+        .col-md: +widget("電子信箱")
+      .row
+        .col-md: +widget("聯絡電話")
+        .col-md: +widget("生日")
       +widget("性別")
       +widget("就讀")
     .sect
       +widget("時數限制")
       +visibility("需求時數"): +widget("需求時數")
       +widget("排班頻率")
-    .sect
       +widget("實習類型")
       +widget("專長")
       +widget("經驗")

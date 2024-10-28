@@ -66,7 +66,7 @@ fc["需求時數"] =
     disabled: true
 
 fc["排班頻率"] =
-  type: \@makeform/choice
+  type: \@makeform/radio
   meta:
     title: "實習期間，預計的排班頻率"
     is-required: true
