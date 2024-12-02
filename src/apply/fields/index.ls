@@ -119,7 +119,7 @@ fc["簡歷"] =
     is-required: false
     disabled: true
     title: "請上傳簡歷，讓我們更認識你吧！"
-    note: ["具學生證、身心障礙證明者，請上傳證件之正面照片。"]
+    config: note: ["具學生證、身心障礙證明者，請上傳證件之正面照片。", "支援檔案格式：pdf, doc, docx"]
     term: [
       {
         opset: \file, enabled: true, op: \extension, msg: '檔案格式不符'
